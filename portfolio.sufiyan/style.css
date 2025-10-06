@@ -1,0 +1,305 @@
+body{
+   background: #020024;
+background: #001724;
+background: #001724;
+background: #1b2f3d;
+background: #0a2538;
+background: linear-gradient(90deg, rgba(10, 37, 56, 1) 100%,
+ rgba(6, 6, 82, 1) 0%, rgba(7, 37, 112, 1) 0%, rgba(0, 212, 255, 1) 0%);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h3{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+.child2{
+    word-spacing: 16px;
+ 
+}
+button{
+    background-color: rgb(13, 95, 219);
+    color: aliceblue;
+    border-radius: 40px;
+    font-family: "Space Grotesk";
+    font-size: bold;
+    padding: 13px 30px 13px 30px;
+    border: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: none;
+}
+.parent2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+}
+.child3{
+    color: aliceblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.about{
+    color: rgb(13, 95, 219);
+}
+img{
+    width: 370px;
+    height: 400px;
+}
+.parent3{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 70px;
+    font-size: xx-large;
+    color: aliceblue;
+    font-family:sans-serif;
+    padding: 25px;
+
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: black;
+}
+span{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.parent4{
+    margin-bottom:100px;
+}
+.child7{
+    color: aliceblue;
+
+}
+.nasted2{
+     color: rgb(13, 95, 219);
+}
+.parent4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.child6 img{
+    width: 350px;
+    border: solid white 1px;
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 40px;
+
+}
+.text3{
+    margin: 0 200px;
+    padding-top: 100px;
+}
+
+.text3 span{
+    background-color: rgba(7, 136, 255, 0.2);
+    border-radius: 4px;
+    padding: 5px 12px;
+    display: inline-block;
+    color: white;
+    font-family: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.text3 h2{
+    font-size: 40px;
+    color: white;
+}
+.parent5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 50px;
+}
+
+.s1{
+    padding: 14px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.s1 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+.info h5{
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.arrow1 button{
+    all:unset;
+    background-color: #0788ff;
+    border-radius: 1000px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: bold;
+    border: black solid;
+}
+.arrow1 a{
+    all: unset;
+    cursor: pointer;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #062b53;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px;
+  gap: 40px;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-left img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  border: white solid 1px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-info h4 {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.contact-info p {
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contact-right {
+  flex: 2;
+}
+.contact-right h1 {
+  color: white; 
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-right p {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.row input {
+  flex: 1;
+}
+
+input,textarea {
+  padding: 15px;
+  border: 1px solid #1e3a8a;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+button {
+  padding: 15px;
+  background: #1d90ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: black
+}
+
+footer{
+    border-top: rgba(255, 255, 255, .1) solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+footer p{
+    text-align: center;
+}
+.parent5{
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+   
+
+    
+    
+
+
+
+
